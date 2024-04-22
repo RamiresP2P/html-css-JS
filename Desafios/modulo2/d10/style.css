@@ -1,0 +1,141 @@
+@import "UTF-8"; /*Errei aqui, o correto era @charset*/
+@font-face {
+    font-family: "Droid";
+    src: url("fontes/idroid.otf") format"opentype";
+    font-weight: bolder;
+    font-style: normal;
+}
+/* PALETA DE CORES
+#bef6c5af
+#C4FFCC 
+#556F58*/
+
+body {
+    background-color: #bef6c5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+}
+
+header#inicio {
+    background-image: linear-gradient(to bottom, #3dff57cc, #35753d);
+    width: 100%;
+    height: 100%;
+    margin-top: -21px;
+    padding: 1px;
+    box-shadow: 1px 1px 10px #556F58;
+}
+
+header#inicio > h1#principal {
+    color: white;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+header > p {
+    color: white;
+    text-align: center;
+    font-weight: normal;
+}
+
+header > nav {
+    text-align: left;
+    margin: 0px 25px 10px 15px;
+    width: 500px;
+}
+
+header > nav > a {
+    margin-left: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+header > nav > a:hover {
+    color: #C4FFCC;
+}
+
+main {
+    margin: 0 auto;
+    padding: 10px;
+    width: 60%;
+    background-color: white;
+    text-indent: 10px;
+    box-shadow: 1px 1px 10px #556F58;
+    border-radius: 0px 0px 8px 8px;
+}
+
+main > section > h1#titulo {
+    font-family: 'Droid';
+    color: #33a33f;
+    font-size: 40px;
+    text-align: left;
+}
+
+h2.t2 {
+    background-image: linear-gradient(to right, #bbffc49a 10%, #c4ffcc13);
+    font-family: 'Droid';
+    color: #95b6988e;
+    font-size: 30px;
+    text-align: left;
+    height: 100%;
+    border: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+aside {
+    background-color: #bef6c5af;
+    border-radius: 20px;
+    margin: 10px 0px 10px 0px;
+}
+
+aside > header {
+    background-color: #4db45b98;
+    height: 60px;
+    border-radius: 13px 13px 0px 0px;
+}
+
+aside > header > h3 {
+    color: white;
+    width: 260px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: left;
+    padding: 10px;
+}
+
+aside > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    text-indent: 20px;
+    padding: 5px;
+}
+
+/* ESPAÇO DA UL, NÃO LEMBRO COMO FAZER DUAS COLUNAS */
+
+footer {
+    background-color: #35753d;
+    color: whitesmoke;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+footer > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+span {
+    color: #33a33f;
+    font-weight: bold;
+}
