@@ -9,23 +9,25 @@
   padding: 0;
 }
 
+
 header {
   background-color: #000000;
   color: white;
   padding: 30px;
   text-align: center;
-  min-height: 200px;
+  min-height: 100px;
 }
 
 header h1 {
   font-family: 'Passion One', cursive;
-  font-size: 8em;
-  font-weight: normal;
+  font-size: 9vw;
+  font-weight: bold;
+  margin-top: 20px;
 }
 
 header p {
   font-family: 'Sriracha', cursive;
-  font-size: 1.2em;
+  font-size: 1.3em;
   margin: 10px;
 }
 
@@ -38,23 +40,127 @@ header > p > a:hover {
   text-decoration: underline;
 }
 
-main {
-    height: 100vh;
-}
-
 #estrofe1 {
     display: absolute;
-    background-color: #1a1919;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 10px 20px 80px 30px;
     max-width: 100%;
-    min-height: 100vh;
-    margin-bottom: 100px;
+    min-height: 50vh;  
 }
 
 #estrofe1 p {
     font-family: 'Sriracha', cursive;
-    font-size: 4em;
+    font-size: 4vw;
     font-weight: lighter;
     padding: 80px 0px 30px 0px;
+}
+
+#img-joaninha {
+  background: #1a1919 url(imagens/background001.jpg) right bottom no-repeat fixed;
+  min-width: 100vw;
+  height: 130vh;
+  min-height: 50vw;
+  max-height: 100vw;
+  position: relative;
+  background-size: cover;
+}
+
+#estrofe2 {
+    position: absolute;
+    top: 12.5vh;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.404);
+    padding: 10px;
+    margin-left: 30px;
+    min-width: 40vw;
+    max-height: 105vh;
+}
+
+#estrofe2 p {
+    font-family: 'Sriracha', cursive;
+    font-size: 3.2vw;
+    line-height: 2.5em;
+    font-weight: lighter;
+}
+
+#estrofe3 {
+    color: rgb(37, 36, 36);
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+    height: 220vh;
+    max-height: 120vw;
+    margin: 70px 0px 0px 0px;
+}
+
+
+#estrofe3 p {
+    font-family: 'Sriracha', cursive;
+    font-size: 4vw;
+    font-weight: lighter;
+    margin-left: 25px;
+}
+
+#img-folha {
+  background: #1a1919 url(imagens/background002.jpg) center center no-repeat fixed;
+  height: 120vh;
+  min-height: 50vw;
+  max-height: 100vw;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+}
+
+#estrofe4 {
+    position: absolute;
+    top: 12.5vh;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.404);
+    padding: 10px;
+    margin: 15px;
+    min-width: 30vw;
+    max-height: 85vw;
+}
+
+#estrofe4 p {
+    font-family: 'Sriracha', cursive;
+    font-size: 4vw;
+    font-weight: lighter;
+}
+
+#estrofe5 {
+  color: rgb(37, 36, 36);
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  max-width: 100%;
+  height: 200vh;
+  min-width: 40vw;
+  max-height: 140vw;
+  position: relative;
+}
+
+#estrofe5 p {
+  font-family: 'Sriracha', cursive;
+  font-size: 4vw;
+  font-weight: lighter;
+  padding: 15px;
+}
+
+footer {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  padding: 10px;
+
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
