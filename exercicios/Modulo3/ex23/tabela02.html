@@ -15,6 +15,14 @@
             margin: 0 auto;
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgba(201, 201, 201, 0.39);
         }
 
         th, td {
@@ -25,6 +33,16 @@
         thead, tfoot {
             background-color: #616161;
             color: #fff;
+        }
+
+        thead > tr >th {
+            position: sticky;
+            top: -1px;
+            background-color: #616161;
+        }
+
+        tbody tr:nth-child(2n) {
+            background-color: #7272726b;
         }
 
         td {
@@ -45,10 +63,11 @@
     <h1>Uso de tabelas grandes</h1>
     
     <table>
+        <caption>População das Unidades Federativas do Brasil</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>Popolação</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 120px;">Popolação</th>
             </tr>
         </thead>
 
@@ -188,7 +207,7 @@
 
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td class="numero"><strong>203 062 512</strong></td>
             </tr>
         </tfoot>
