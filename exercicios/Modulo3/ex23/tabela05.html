@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        table {
+            width: 600px;
+            border-collapse: collapse;
+            margin: 0 auto;
+        }
+
+        caption {
+            font-size: 1.5em;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        th, td {
+            border: 1px solid black;
+        }
+
+        th {
+            text-align: center;
+            padding: 15px;
+        }
+
+        td {
+            text-align:left;
+            padding: 15px 15px 15px 3px;
+        }
+
+        col.cnome {
+            width: 30%;
+            background-color: rgba(127, 255, 212, 0.74);
+        }
+
+        col.csexo {
+            width: 10%;
+            background-color: rgba(127, 255, 212, 0.534);
+        }
+
+        col.cprof {
+            width: 30%;
+            background-color: rgba(127, 255, 212, 0.205);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo" span="2">
+            <col class="cprof">
+        </colgroup>
+
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+
+        <tr>
+            <td>João da Silva</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Engenheiro</td>
+        </tr>
+
+        <tr>
+            <td>Maria de Souza</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Estudante</td>
+        </tr>
+
+        <tr>
+            <td>Carlos Santos</td>
+            <td>M</td>
+            <td>35</td>
+            <td>Advogado</td>
+        </tr>
+
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>39</td>
+            <td>Médica</td>
+        </tr>
+
+        <tr>
+            <td>João</td>
+            <td>M</td>
+            <td>45</td>
+            <td>Professor</td>
+        </tr>
+
+
+
+    </table>
+
+
+</body>
+</html>
